@@ -1,0 +1,29 @@
+h1 {
+  color: darkblue;
+  font-weight: bold;
+  text-align: center;
+}
+h2 {
+
+}
+
+h3 {
+  color: black;
+  font-weight: bold;
+  text-align: center;
+}
+
+.animals {
+  float: left;
+  margin-left: 10px;
+  width: 300px;
+}
+
+body {
+  background-color: powderblue;
+}
+
+.text {
+  margin-bottom: 50px;
+  float:left;
+}
