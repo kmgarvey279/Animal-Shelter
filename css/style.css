@@ -3,9 +3,6 @@ h1 {
   font-weight: bold;
   text-align: center;
 }
-h2 {
-
-}
 
 h3 {
   color: black;
@@ -26,4 +23,20 @@ body {
 .text {
   margin-bottom: 50px;
   float:left;
+}
+
+@media screen and (max-width:1000px) and (min-width:700px) {
+  body {
+    background-color: purple;
+    font-family: cursive;
+    color: pink;
+  }
+}
+
+@media screen and (max-width:480px) and (min-width:300px) {
+  body {
+    background-color: darkgray;
+    font-family: monospace;
+    color: darkred;
+  }
 }
